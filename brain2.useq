@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sequence-diagram version="1.2.3" icons="true" generate-combined-fragments="true">  
+  <object id="1" language="java" name="brainexam2.Frame" project="brainexam" file="/brainexam/src/brainexam2/Frame.java" 
+    binary="false" label="frame" type="class" autoSize="true">    
+    <position height="-1" width="-1" x="1015" y="0"/>    
+    <execution id="2">      
+      <position height="158" width="0" x="0" y="617"/>    
+    </execution>    
+    <execution id="4">      
+      <position height="95" width="0" x="0" y="659"/>    
+    </execution>  
+  </object>  
+  <object id="7" language="java" name="brainexam2.Main" project="brainexam" file="/brainexam/src/brainexam2/Main.java" 
+    binary="false" label="main1" type="class" autoSize="true">    
+    <position height="-1" width="-1" x="988" y="0"/>    
+    <execution id="6">      
+      <position height="84" width="0" x="0" y="649"/>    
+    </execution>    
+    <execution id="9">      
+      <position height="21" width="0" x="0" y="691"/>    
+    </execution>    
+    <execution id="10">      
+      <position height="21" width="7" x="726" y="663"/>    
+    </execution>  
+  </object>  
+  <object id="11" language="java" name="brainexam2.View" project="brainexam" file="/brainexam/src/brainexam2/View.java" 
+    binary="false" label="view1" type="class" autoSize="true">    
+    <position height="-1" width="-1" x="882" y="0"/>    
+    <execution id="12">      
+      <position height="648" width="0" x="0" y="78"/>    
+    </execution>    
+    <execution id="14">      
+      <position height="21" width="0" x="0" y="120"/>    
+    </execution>    
+    <execution id="16">      
+      <position height="21" width="0" x="0" y="196"/>    
+    </execution>    
+    <execution id="18">      
+      <position height="21" width="0" x="0" y="272"/>    
+    </execution>    
+    <execution id="20">      
+      <position height="21" width="0" x="0" y="347"/>    
+    </execution>    
+    <execution id="22">      
+      <position height="21" width="0" x="0" y="418"/>    
+    </execution>    
+    <execution id="24">      
+      <position height="21" width="0" x="0" y="499"/>    
+    </execution>    
+    <execution id="26">      
+      <position height="132" width="0" x="0" y="573"/>    
+    </execution>  
+  </object>  
+  <message id="3" operation="Frame()" asynchronous="false">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="4"/>  
+  </message>  
+  <message id="5" asynchronous="false">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="6"/>  
+  </message>  
+  <message id="8" operation="main(java.lang.String[]):void" asynchronous="false">    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="9"/>  
+  </message>  
+  <message id="13" operation="View()" asynchronous="false">    
+    <end type="SOURCE" refId="12"/>    
+    <end type="TARGET" refId="14"/>  
+  </message>  
+  <message id="15" operation="checkMove(int,int,int,int):boolean" asynchronous="false">    
+    <end type="SOURCE" refId="12"/>    
+    <end type="TARGET" refId="16"/>  
+  </message>  
+  <message id="17" operation="ClickNumber(int,int):void" asynchronous="false">    
+    <end type="SOURCE" refId="12"/>    
+    <end type="TARGET" refId="18"/>  
+  </message>  
+  <message id="19" operation="drawMap(java.awt.Graphics):void" asynchronous="false">    
+    <end type="SOURCE" refId="12"/>    
+    <end type="TARGET" refId="20"/>  
+  </message>  
+  <message id="21" operation="drawNumber(java.awt.Graphics):void" asynchronous="false">    
+    <end type="SOURCE" refId="12"/>    
+    <end type="TARGET" refId="22"/>  
+  </message>  
+  <message id="23" operation="mixNumber(int):void" asynchronous="false">    
+    <end type="SOURCE" refId="12"/>    
+    <end type="TARGET" refId="24"/>  
+  </message>  
+  <message id="25" operation="paint(java.awt.Graphics):void" asynchronous="false">    
+    <end type="SOURCE" refId="12"/>    
+    <end type="TARGET" refId="26"/>  
+  </message>  
+  <message id="27" asynchronous="false">    
+    <end type="SOURCE" refId="26"/>    
+    <end type="TARGET" refId="10"/>  
+  </message>
+</sequence-diagram>
